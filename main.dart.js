@@ -59013,20 +59013,20 @@ else if(k>=h)g=B.xP
 else g=i>=o?B.xP:B.l
 r=A.eV(r+" (1 Kreis = 1 Portion = "+q+"g)",b,b,b,b,b,b)
 m=A.eV("Tagesmenge: "+B.f.dm(i,q)+" von "+B.f.dm(o,q)+"-"+B.f.dm(m,q)+a+o+"-"+m+"g",b,b,b,b,b,b)
-j=A.eV("akt. Wochenmenge: "+B.f.dm(k,q)+" von "+B.f.dm(h,q)+"-"+B.f.dm(j,q)+a+i+"g von "+h+"-"+j+"g",b,b,b,b,b,b)
+j=A.eV("akt. Wochenmenge: "+B.f.dm(k,q)+" von "+B.f.dm(h,q)+"-"+B.f.dm(j,q)+a+k+"g von "+h+"-"+j+"g",b,b,b,b,b,b)
 h=A.eV("",b,b,b,b,b,b)
-i=A.u0(b,10,b)
+k=A.u0(b,10,b)
 q=t.F
-k=A.a([],q)
-for(f=0;f<10;++f){o=new A.ay(10,10)
+o=A.a([],q)
+for(f=0;f<10;++f){i=new A.ay(10,10)
 if(f<p)e=B.b6
 else if(f<n)e=B.fl
 else e=f<l?B.kw:B.hw
-k.push(A.dN(b,b,B.z,b,b,new A.dt(e,b,b,new A.c_(o,o,o,o),b,b,B.br),b,20,new A.aF(1,1,1,1),b,b,b,20))}o=A.tz(k,B.bt,B.Sk,B.bj)
-k=A.u0(b,10,b)
+o.push(A.dN(b,b,B.z,b,b,new A.dt(e,b,b,new A.c_(i,i,i,i),b,b,B.br),b,20,new A.aF(1,1,1,1),b,b,b,20))}o=A.tz(o,B.bt,B.Sk,B.bj)
+i=A.u0(b,10,b)
 e=A.tz(A.a([A.a5g(A.eV("-",b,b,b,b,b,b),new A.OG(a0,c)),A.eV("akt. Tagesmenge "+s.d+" g",b,b,b,b,b,b),A.a5g(A.eV("+",b,b,b,b,b,b),new A.OH(a0,c))],q),B.bt,B.iz,B.bj)
 d=A.aaz(a1).a_5(B.b6,B.fl,A.L(B.c.aS(76.5),33,150,243),B.b6,B.b6)
-return new A.yr(g,3,new A.aF(8,8,8,8),new A.i9(new A.aF(16,16,16,16),A.a4P(A.a([r,m,j,h,i,o,k,e,A.yt(A.aax(new A.u2(s.d,new A.OI(c),0,1000,100,b),d),b,b)],q),B.hy,B.bj),b),b)}}
+return new A.yr(g,3,new A.aF(8,8,8,8),new A.i9(new A.aF(16,16,16,16),A.a4P(A.a([r,m,j,h,k,o,i,e,A.yt(A.aax(new A.u2(s.d,new A.OI(c),0,1000,100,b),d),b,b)],q),B.hy,B.bj),b),b)}}
 A.OG.prototype={
 $0(){var s=A.ao(t.io),r=this.b,q=r.c,p=q.d-this.a.a,o=t.z
 r=r.d
