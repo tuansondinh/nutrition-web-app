@@ -58989,9 +58989,9 @@ A.ZD.prototype={
 $1(a){return new A.cV(a.a,this.a,a.b,0,a.c,a.d,0)},
 $S:395}
 A.mY.prototype={
-R(a1){var s,r,q,p,o,n,m,l,k,j,i,h,g,f,e,d,c=this,b=null,a=" Portionen bzw. ",a0={}
+R(a1){var s,r,q,p,o,n,m,l,k,j,i,h,g,f,e,d,c,b=this,a=null,a0={}
 a0.a=null
-s=c.c
+s=b.c
 r=s.c
 switch(r){case"N\xfcsse":q=a0.a=50
 break
@@ -59011,22 +59011,22 @@ h=o*7
 if(k>j)g=B.Ue
 else if(k>=h)g=B.xP
 else g=i>=o?B.xP:B.l
-r=A.eV(r+" (1 Kreis = 1 Portion = "+q+"g)",b,b,b,b,b,b)
-m=A.eV("Tagesmenge: "+B.f.dm(i,q)+" von "+B.f.dm(o,q)+"-"+B.f.dm(m,q)+a+o+"-"+m+"g",b,b,b,b,b,b)
-j=A.eV("akt. Wochenmenge: "+B.f.dm(k,q)+" von "+B.f.dm(h,q)+"-"+B.f.dm(j,q)+a+k+"g von "+h+"-"+j+"g",b,b,b,b,b,b)
-h=A.eV("",b,b,b,b,b,b)
-k=A.u0(b,10,b)
+r=A.eV(r+" (1 Kreis = 1 Portion = "+q+"g)",a,a,a,a,a,a)
+i=A.eV("Tagesmenge: "+B.f.dm(i,q)+" von "+B.f.dm(o,q)+"-"+B.f.dm(m,q)+" Portionen",a,a,a,a,a,a)
+j=A.eV("akt. Wochenmenge: "+B.f.dm(k,q)+" von "+B.f.dm(h,q)+"-"+B.f.dm(j,q)+" Portionen bzw. "+k+"g von "+h+"-"+j+"g",a,a,a,a,a,a)
+h=A.eV("",a,a,a,a,a,a)
+k=A.u0(a,10,a)
 q=t.F
-o=A.a([],q)
-for(f=0;f<10;++f){i=new A.ay(10,10)
-if(f<p)e=B.b6
-else if(f<n)e=B.fl
-else e=f<l?B.kw:B.hw
-o.push(A.dN(b,b,B.z,b,b,new A.dt(e,b,b,new A.c_(i,i,i,i),b,b,B.br),b,20,new A.aF(1,1,1,1),b,b,b,20))}o=A.tz(o,B.bt,B.Sk,B.bj)
-i=A.u0(b,10,b)
-e=A.tz(A.a([A.a5g(A.eV("-",b,b,b,b,b,b),new A.OG(a0,c)),A.eV("akt. Tagesmenge "+s.d+" g",b,b,b,b,b,b),A.a5g(A.eV("+",b,b,b,b,b,b),new A.OH(a0,c))],q),B.bt,B.iz,B.bj)
-d=A.aaz(a1).a_5(B.b6,B.fl,A.L(B.c.aS(76.5),33,150,243),B.b6,B.b6)
-return new A.yr(g,3,new A.aF(8,8,8,8),new A.i9(new A.aF(16,16,16,16),A.a4P(A.a([r,m,j,h,k,o,i,e,A.yt(A.aax(new A.u2(s.d,new A.OI(c),0,1000,100,b),d),b,b)],q),B.hy,B.bj),b),b)}}
+f=A.a([],q)
+for(e=0;e<10;++e){d=new A.ay(10,10)
+if(e<p)c=B.b6
+else if(e<n)c=B.fl
+else c=e<l?B.kw:B.hw
+f.push(A.dN(a,a,B.z,a,a,new A.dt(c,a,a,new A.c_(d,d,d,d),a,a,B.br),a,20,new A.aF(1,1,1,1),a,a,a,20))}f=A.tz(f,B.bt,B.Sk,B.bj)
+d=A.u0(a,10,a)
+m=A.tz(A.a([A.a5g(A.eV("-",a,a,a,a,a,a),new A.OG(a0,b)),A.eV(""+s.d+" g von "+o+"-"+m+"g",a,a,a,a,a,a),A.a5g(A.eV("+",a,a,a,a,a,a),new A.OH(a0,b))],q),B.bt,B.iz,B.bj)
+o=A.aaz(a1).a_5(B.b6,B.fl,A.L(B.c.aS(76.5),33,150,243),B.b6,B.b6)
+return new A.yr(g,3,new A.aF(8,8,8,8),new A.i9(new A.aF(16,16,16,16),A.a4P(A.a([r,i,j,h,k,f,d,m,A.yt(A.aax(new A.u2(s.d,new A.OI(b),0,1000,100,a),o),a,a)],q),B.hy,B.bj),a),a)}}
 A.OG.prototype={
 $0(){var s=A.ao(t.io),r=this.b,q=r.c,p=q.d-this.a.a,o=t.z
 r=r.d
